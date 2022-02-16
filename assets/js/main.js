@@ -90,23 +90,24 @@ let number1 = document.getElementById('number1')
 
 function submitButton(){
     
-    // words.forEach(m => {
-    //     console.log(m.length);
-    //     if (number1.value == m.length) {
-    //         console.log('Test');
-    //         output2.innerHTML += `${m} <br>`
-    //     }
-    // })
-
-        for (let i = 0; i == words; i++) {
-            
-            if (number.value == words[i].length) {
-                output2.innerHTML = words[i]
-                console.log('Iam here');
-            } else{
-                
-            }
+    words.forEach(m => {
+        console.log(m.length);
+        if (number1.value == m.length) {
+            console.log('Test');
+            output2.innerHTML += `${m} <br>`
         }
+    })
+
+        // for (let i = 0; i == words; i++) {
+            
+        //     if (number.value == words[i].length) {
+        //         output2.innerHTML = words[i]
+        //         console.log('Iam here');
+        //     } else{
+                
+        //     }
+        // }
+        
 }
 
 console.log(words[0].length);
